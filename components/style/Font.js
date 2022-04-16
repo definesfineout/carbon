@@ -19,6 +19,15 @@ export default function Font() {
         }
 
         @font-face {
+          font-family: 'OpenDyslexic Mono';
+          font-display: swap;
+          src: url('//cdn.jsdelivr.net/gh/antijingoist/opendyslexic@master/compiled/OpenDyslexicMono-Regular.woff')
+              format('woff2'),
+            url('//cdn.jsdelivr.net/gh/antijingoist/opendyslexic@master/compiled/OpenDyslexicMono-Regular.woff')
+              format('woff');
+        }
+
+        @font-face {
           font-family: 'Fantasque Sans Mono';
           font-display: swap;
           src: url('//cdn.jsdelivr.net/npm/@typopro/web-fantasque-sans-mono@3.7.5/TypoPRO-FantasqueSansMono-Regular.woff')
